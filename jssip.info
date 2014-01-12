@@ -1,0 +1,6 @@
+name = JsSIP
+description = SIP over WebSocket library for WebRTC
+package = JsSIP
+core = 7.x
+dependencies[] = libraries (>=2.x)
+
