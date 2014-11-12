@@ -1,4 +1,3 @@
-
 Unpack the libraries API into your Drupal 7 modules directory
 
 Unpack this jssip module into your Drupal 7 modules directory
@@ -20,4 +19,3 @@ enable the modules:
   * jssip
 
 Finally, install and enable any other modules that want to use JsSIP
-

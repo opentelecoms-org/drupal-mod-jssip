@@ -29,8 +29,8 @@
  * and a live demonstration.
  *
  * @return array
- *  An associative array whose keys are internal names of libraries
- *  and whose values are describing each library.
+ *   An associative array whose keys are internal names of libraries
+ *   and whose values are describing each library.
  */
 function jssip_libraries_info() {
   $libraries['jssip'] = array(
@@ -44,8 +44,8 @@ function jssip_libraries_info() {
       'cols' => 8,
     ),
     'files' => array(
-          'js' => array(
-            'JsSIP.js',
+      'js' => array(
+        'JsSIP.js',
       ),
     ),
   );
