@@ -1,7 +1,15 @@
 <?php
+/**
+ * @file
+ * Libraries API functions for the JsSIP module.
+ *
+ * JsSIP is a JavaScript implementation of Session Initiation Protocol
+ * (SIP) from RFC 3261, a popular protocol for Internet-based
+ * voice, video, chat, desktop sharing and other real-time protocols.
+ */
 
 /**
- * hook_libraries_info() implementation for the jssip library module
+ * hook_libraries_info() implementation for the jssip library module.
  *
  * JsSIP is a JavaScript implementation of Session Initiation Protocol
  * (SIP) from RFC 3261, a popular protocol for Internet-based
@@ -20,7 +28,7 @@
  * of the DruCall module - see http://drucall.org for source code
  * and a live demonstration.
  *
- * @return
+ * @return array
  *  An associative array whose keys are internal names of libraries
  *  and whose values are describing each library.
  */
@@ -43,5 +51,3 @@ function jssip_libraries_info() {
   );
   return $libraries;
 }
-
-
