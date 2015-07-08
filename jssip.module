@@ -17,7 +17,7 @@
  *
  * Please download the JsSIP JavaScript source file to the directory
  *
- *   $(DRUPAL_HOME)/libraries/jssip/JsSIP.js
+ *   $(DRUPAL_HOME)/libraries/jssip/jssip.js
  *
  * and manually create a VERSION file corresponding to the version
  * in use, for example:
@@ -45,7 +45,7 @@ function jssip_libraries_info() {
     ),
     'files' => array(
       'js' => array(
-        'JsSIP.js',
+        'jssip.js',
       ),
     ),
   );
